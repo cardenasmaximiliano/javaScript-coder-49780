@@ -42,18 +42,7 @@
 
 //crear un programa, donde nos diga el horario del dia (mañana, tarde o noche)
 //Esto lo va a determinar el usuario. 
-
-// si la hora esta entre las 5:00 y las 11:59 devolver "buen dia"
-// de 12 a 19:59 devolver "buenas tardes"
-//de 20 a 4:58 devolver "buenas noches"
-
-
-const HORA = parseInt(prompt("¿que hora es? enformato de 24hs"));
-
-if (HORA >= 5 && HORA < 12 ){
-    console.log("buen dia");
-} else if (HORA >= 12 && HORA < 20){
-    console.log("buenas tardes");
-}else{
-    console.log("buenas noches");
+debugger
+for (let i= 0; i <21; i++ ){
+    console.log("iteracion Nro", i);
 }
