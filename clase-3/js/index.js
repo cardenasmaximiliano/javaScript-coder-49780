@@ -111,3 +111,57 @@ do{
     }
 } while (continuar ==="si");
 console.log ("la suma es " + suma);
+
+// switch
+
+/*
+switch (expresion){
+
+    case valor1:
+        codigo de ejecucion
+        break;
+    case valor2:
+        codigo de ejecucion
+        break;
+    case valor3:
+        codigo de ejecucion
+        break;
+    case valor4:
+        codigo de ejecucion
+        break;
+    case valor5:
+        codigo de ejecucion.
+
+    default:
+        codigo a ejecutar en caso de que no se cumpla ningun case previo
+}
+
+
+*/
+
+const NUMERO_DIA= 2;
+
+switch (NUMERO_DIA){
+    case 1:
+        console.log ("lunes");
+        break;
+    case 2:
+        console.log ("martes");
+        break;
+    case 3:
+            console.log ("miercoles");
+            break;
+    case 4:
+        console.log ("jueves");
+        break;
+
+        default:
+            console.log("dia no encontrado")
+}
+function name() {
+    console.log('saludar');
+    console.log('saludar');
+    console.log('saludar');
+    console.log('saludar');
+    
+}
