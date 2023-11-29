@@ -1,0 +1,11 @@
+.pepito{
+    background-color: lightblue;
+}
+
+.card{
+    width: 240px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
