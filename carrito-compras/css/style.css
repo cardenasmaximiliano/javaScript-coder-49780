@@ -1,0 +1,17 @@
+.imgProducto{
+    width: 9.375rem;
+    height: 9.375rem;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.colorBoton{
+    color: white;
+    background-color: lightsalmon;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
