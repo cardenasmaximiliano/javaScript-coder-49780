@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--calificacion de producto-->
+    <div id="rating-container">
+        <span onclick="calificar(1)">☆</span>            
+        <span onclick="calificar(2)">☆</span>        
+        <span onclick="calificar(3)">☆</span>
+        <span onclick="calificar(4)">☆</span>
+        <span onclick="calificar(5)">☆</span>
+    </div> 
+
+    <div id="listaProductos"></div>
+    <input type="text" id="nuevoProductoNombreInput" placeholder="nuevo producto">
+    <input type="number" id="nuevoProductoPrecioInput" placeholder="precio">
+    <button onclick="agregarProductos()">Agregar Producto</button>
+
+<script src="./calificacion.js"></script>
+</body>
+</html>
